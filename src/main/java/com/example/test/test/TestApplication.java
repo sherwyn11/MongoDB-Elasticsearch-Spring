@@ -2,9 +2,9 @@ package com.example.test.test;
 
 import java.util.concurrent.TimeUnit;
  
-import org.javacodegeeks.mongoes.domain.Article;
-import org.javacodegeeks.mongoes.domain.ArticleElasticRepository;
-import org.javacodegeeks.mongoes.domain.ArticleMongoRepository;
+import com.example.test.test.models.Article;
+import com.example.repositories.ArticleElasticRepository;
+import com.example.repositories.ArticleMongoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
