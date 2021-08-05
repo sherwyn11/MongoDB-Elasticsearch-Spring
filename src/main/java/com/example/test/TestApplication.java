@@ -1,10 +1,14 @@
-package com.example.test.test;
+package com.example.test;
 
 import java.util.concurrent.TimeUnit;
  
-import com.example.test.test.models.Article;
-import com.example.repositories.ArticleElasticRepository;
-import com.example.repositories.ArticleMongoRepository;
+import com.example.test.models.Article;
+import com.example.test.repositories.ArticleElasticRepository;
+import com.example.test.repositories.ArticleMongoRepository;
+// import com.example.test.test.models.Article;
+// import com.example.test.test.repositories.ArticleElasticRepository;
+// import com.example.test.test.repositories.ArticleMongoRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -20,7 +24,7 @@ public class TestApplication implements CommandLineRunner {
     private ArticleElasticRepository aer;
  
     public static void main(String[] args) {
-        SpringApplication.run(MongoesApplication.class, args);
+        SpringApplication.run(TestApplication.class, args);
     }
  
     @Override

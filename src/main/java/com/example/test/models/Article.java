@@ -1,4 +1,4 @@
-package com.example.test.test;
+package com.example.test.models;
  
 import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;
