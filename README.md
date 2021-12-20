@@ -1,3 +1,3 @@
 # MongoDB-Elasticsearch-Spring
 
-Testing
+Base project
